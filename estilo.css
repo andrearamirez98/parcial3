@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: white;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	background:#1E90FF;
+	color:black;
+	padding: 10px;
+	position: fixed;
+	top: 5;
+	left: 0;
+	z-index: 100;
+
+}
+ 
+ div.contenedor{
+ 	width:auto;
+ 	margin: 12px 0px;
+ 	background-color: #1E90FF;
+ 	
+ }
+
+hr{
+	width: auto;
+}
+.menu ul li {
+	margin:auto;
+	list-style:none;
+	display:flex;
+	float:right;
+	position: relative; 
+	text-decoration-line: none;
+	padding:8px 10px;
+	color:white;
+	text-decoration:none;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.menu li:hover{
+	background: grey; 
+	text-decoration: underline;
+}
+
+div.contenedor2{
+ 	margin:auto;
+ 	width: 50%;
+ 	height: 500px;
+ 	overflow:hidden;
+ 	background-color:none;
+
+ }
+ .contenedor2 ul{
+ 	margin-top: 90px;
+ 	padding:0;
+ 	display: flex;
+ 	width: 500%;
+ 	animation:cambio 20s infinite;
+ 	animation-direction: alternate linear;
+ }
+
+ .contenedor2 li {
+ 	width: 50%;
+ 	list-style:none;
+ }
+ .contenedor2 img{
+ 	width: 100%;
+ }
+ @keyframes cambio{
+ 	0%{ margin-left: 0; }
+ 	20%{ margin-left: 0; }
+
+ 	25%{margin-left:-100%;}
+ 	45%{margin-left:-100%;}
+
+ 	50%{margin-left:-200%;}
+ 	70%{margin-left:-200%;}
+ 	75%{margin-left:-300%;}
+ 	100%{margin-left:-300%;}
+ }
+
+img{
+	height: 500px;
+}
+
+div.contenedor3{
+	margin:auto;
+	background-color:white;
+	width: 100%;
+	height: 300px;
+	font size:22px;
+	position: relative;
+	color:black;
+}
+.icon2 {
+	background-color: black;
+	color:white;
+}
+
+h1.icon3 {
+	text-align: center;
+	color:#1E90FF;
+}
+h1.icon4{
+	text-align:center;
+	color:#1E90FF;
+}
+ p{
+	padding: 20px;
+	text-align: justify-all;
+}
+
+.contenedor5{
+	background-color:none;
+	margin:auto;
+	width: 50%;
+	height: auto;
+	margin-bottom: auto;
+	text-align: justify;
+	float:left;
+	padding:20px 40px; 
+	display: block;
+	position: relative;
+}
+
+
+.contenedor7{
+	background-color:none; 
+	margin:auto;
+	height: auto;
+	width: 50%;
+	margin-bottom: auto;
+	text-align: justify;
+	float:right;
+	padding: 20PX 40px ;
+	display: block;
+	position: relative;
+}
+
+div{
+	background-color: #1E90FF;
+	color:white;
+};
+
+body{
+	display: inline-block;	
+	background-image:url(imagenes/img02.jpg); 
+	background-size: 100px;
+	background position: 0px 0px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 80px;
+	height: 283px;
+}
+
+
